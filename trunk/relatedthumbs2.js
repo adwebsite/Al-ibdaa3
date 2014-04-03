@@ -81,7 +81,7 @@ while (i < relatedTitles.length && i < 20 && i<maxresults) {
 
 
 document.write('<a style="text-decoration:none;padding:5px;float:right;');
-if(i!=0) document.write('border:solid 0.5px #d4eaf2;');
+if(i!=0) document.write('border:solid 0.5px 0px 0px 0.5px #d4eaf2;');
 else document.write('"');
 document.write(' href="' + relatedUrls[r] + '"><img style="width:72px;height:72px;border: 0;" src="'+thumburl[r]+'"/><br/><div style="width:72px;padding-left:3px;height:65px;border: 0; margin: 3px 0pt 0pt; padding: 0pt; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; line-height: normal; font-size-adjust: none; font-stretch: normal;">'+relatedTitles[r]+'</div></a>');
 
